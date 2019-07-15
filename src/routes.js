@@ -9,10 +9,10 @@ import Instructions from './components/Instructions/Instructions';
 
 export default (
   <Switch>
-    <Route exact path="/" component={Home} />
-    <Route path="/add/name" component={Name} />
-    <Route path="/add/author" component={Author} />
-    <Route path="/add/ingredients" component={Ingredients} />
-    <Route path="/add/instructions" component={Instructions} />
+    <Route exact path="/" component={ Home } />
+    <Route path="/add/name" component={ Name } />
+    <Route path="/add/author" component={ Author } />
+    <Route path="/add/ingredients" component={ Ingredients } />
+    <Route path="/add/instructions" component={ Instructions } />
   </Switch>
 );

@@ -12,7 +12,7 @@ class App extends Component {
           <header>
             <h1>Recipe Cards</h1>
           </header>
-          {routes}
+          { routes }
         </div>
       </Router>
     );
